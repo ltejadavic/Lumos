@@ -5,11 +5,12 @@ import { AuthController } from './auth.controller';
 import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { User } from './entities/user.entity'; // Importa la entidad User
+import { User } from './entities/user.entity';
+import { Role } from './entities/role.entity'; // Importa la entidad Role
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([User]), // Agrega el repositorio de User
+    TypeOrmModule.forFeature([User, Role]), // Incluye también el repositorio de Role
     PassportModule,
     JwtModule.registerAsync({
       imports: [ConfigModule],

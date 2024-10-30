@@ -1,5 +1,6 @@
-import { Controller, Post, Body, HttpException, HttpStatus } from '@nestjs/common';
+import { Controller, Get, Post, Body, HttpException, HttpStatus } from '@nestjs/common';
 import { AuthService } from './auth.service';
+import { Role } from './entities/role.entity';
 
 @Controller('auth')
 export class AuthController {
@@ -7,9 +8,13 @@ export class AuthController {
 
   @Post('register')
   async register(@Body() body) {
-    const hashedPassword = await this.authService.hashPassword(body.password);
-    // Guarda el usuario en la base de datos con hashedPassword, por ejemplo:
-    const newUser = this.authService.createUser({ ...body, password: hashedPassword });
+    const { email, password, nombre, apellidos, telefono, colegio, universidad, distrito, provincia, ciudad, pais, role } = body;
+  
+    const newUser = await this.authService.createUser(
+      { email, password, nombre, apellidos, telefono, colegio, universidad, distrito, provincia, ciudad, pais },
+      role  // Enviar el nombre del rol aquí
+    );
+    
     return { message: 'User registered successfully', user: newUser };
   }
 
@@ -26,5 +31,10 @@ export class AuthController {
     } else {
         throw new HttpException('Invalid credentials', HttpStatus.UNAUTHORIZED);
     }
+    }
+
+  @Get('roles')
+  async getRoles(): Promise<Role[]> {
+    return this.authService.getRoles();
     }
 }
