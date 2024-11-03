@@ -1,0 +1,62 @@
+/* login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1E293B; /* Fondo oscuro elegante */
+  }
+  
+  .login-form {
+    background-color: #2D3748; /* Fondo gris oscuro */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #F3F4F6; /* Texto blanco/gris claro */
+  }
+  
+  .login-form input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #4A5568; /* Borde gris */
+    border-radius: 8px;
+    background-color: #1A202C; /* Fondo más oscuro */
+    color: #F3F4F6; /* Texto claro */
+  }
+  
+  .login-form button {
+    background-color: #3B82F6; /* Azul principal */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #2563EB; /* Azul más oscuro */
+  }
+  
+  .login-form .feedback {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .link-hover {
+    transition: color 0.3s, transform 0.3s; /* Transición suave */
+    color: white;
+  }
+  
+  .link-hover:hover {
+    color: #3B82F6; /* Cambia al color azul */
+    transform: scale(1.05); /* Se agranda ligeramente */
+  }

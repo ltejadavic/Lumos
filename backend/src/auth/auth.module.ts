@@ -7,6 +7,7 @@ import { PassportModule } from '@nestjs/passport';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { User } from './entities/user.entity';
 import { Role } from './entities/role.entity'; // Importa la entidad Role
+import { RolesGuard } from '../guards/roles.guard'; // Importa el guard
 
 @Module({
   imports: [
@@ -21,7 +22,7 @@ import { Role } from './entities/role.entity'; // Importa la entidad Role
       }),
     }),
   ],
-  providers: [AuthService],
+  providers: [AuthService, RolesGuard],
   controllers: [AuthController],
   exports: [AuthService],
 })

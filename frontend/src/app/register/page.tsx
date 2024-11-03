@@ -1,6 +1,9 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import './register.css';
+import { useRouter } from 'next/navigation';
+import { jwtDecode } from 'jwt-decode'; // Use the correct import as needed
 
 // Definir interfaces
 interface GeoLocation {
@@ -18,9 +21,29 @@ interface University {
   "state-province": string | null;
 }
 
+interface DecodedToken {
+    username: string;
+    nombre: string;
+    apellidos: string;
+    sub: number;
+    role: Role;
+    exp: number; // Assuming `exp` is the expiration time in your JWT
+  }
+
 interface Role {
     id: number;
     nombre: string;
+}
+
+interface Colegio {
+    Number: number;
+    Code: string;
+    Name: string;
+    Status: string;
+    Kind: string;
+    Province: string;
+    City: string;
+    District: string;
   }
   
 const RegisterPage = () => {
@@ -30,6 +53,7 @@ const RegisterPage = () => {
   const [telefono, setTelefono] = useState('');
   const [email, setEmail] = useState('');
   const [colegio, setColegio] = useState('');
+  const [isManualInput, setIsManualInput] = useState(false);
   const [universidad, setUniversidad] = useState('');
   const [distrito, setDistrito] = useState(''); // Guardar el distrito seleccionado
   const [districts, setDistricts] = useState<GeoLocation[]>([]); // Lista de distritos
@@ -48,12 +72,44 @@ const RegisterPage = () => {
   const [selectedCityId, setSelectedCityId] = useState<string | "">("");
   const [universities, setUniversities] = useState<University[]>([]);
   const [filteredUniversities, setFilteredUniversities] = useState<University[]>([]);
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
+  const [isUniversityDropdownVisible, setUniversityDropdownVisible] = useState(false);
+
+  const [colegios, setColegios] = useState<Colegio[]>([]);
+  const [filteredColegios, setFilteredColegios] = useState<Colegio[]>([]);
+  const [isSchoolDropdownVisible, setSchoolDropdownVisible] = useState(false);
 
   const [selectedCountryName, setSelectedCountryName] = useState(''); // Variable global para el filtro de universidades
 
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+
+  const [isAuthorized, setIsAuthorized] = useState<boolean>(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      router.push('/login'); // Redirigir si no hay token
+      return;
+    }
+
+    try {
+      const decoded: DecodedToken = jwtDecode(token);
+      if (decoded.role.nombre !== 'Administrador') {
+        router.push('/login'); // Redirigir si el rol no es "Administrador"
+      } else {
+        setIsAuthorized(true); // Permitir acceso si es "Administrador"
+      }
+    } catch (error) {
+      localStorage.removeItem('token');
+      router.push('/login');
+    }
+  }, [router]);
+  // Si el usuario no está autorizado, muestra un mensaje de carga o similar
+  // Si `isAuthorized` es `null`, mostrar un cargando
+  if (isAuthorized === null) {
+    return <div>Cargando...</div>;
+  }
 
   useEffect(() => {
     fetch(`http://api.geonames.org/countryInfoJSON?username=ltejadavic`)
@@ -66,13 +122,19 @@ const RegisterPage = () => {
       .then(data => setUniversities(data))
       .catch(error => console.error("Error al cargar universidades:", error));
 
+    // Cargar el JSON de colegios al montar el componente
+    fetch('/colegios.json')
+      .then((response) => response.json())
+      .then((data) => setColegios(data))
+      .catch((error) => console.error('Error cargando el archivo JSON de colegios:', error));
+  
     const fetchRoles = async () => {
       const response = await fetch('http://localhost:3000/api/auth/roles');
       const rolesData = await response.json();
       setRoles(rolesData);
-    };
-    fetchRoles();  
-  }, []);
+      };
+      fetchRoles();  
+    }, []);
 
   //Country Handler
   const handleCountryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -119,6 +181,31 @@ const RegisterPage = () => {
       setDistrito(e.target.value); // Actualiza el distrito seleccionado
 };
 
+// Función para manejar el cambio en el input de colegio
+const handleColegioChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const input = e.target.value;
+    setColegio(input);
+  
+    if (!isManualInput && input.length >= 2) {
+      const filtered = colegios
+        .filter((col) =>
+          col.Name.toLowerCase().includes(input.toLowerCase())
+        )
+        .slice(0, 6);
+      setFilteredColegios(filtered);
+      setSchoolDropdownVisible(true);
+    } else {
+      setSchoolDropdownVisible(false);
+    }
+  };
+
+  // Función para manejar la selección de una sugerencia
+const handleColegioSuggestionClick = (colegioName: string) => {
+    setColegio(colegioName);
+    setSchoolDropdownVisible(false);
+    setIsManualInput(false); // Resetea la opción de entrada manual
+  };
+
   const handleUniversityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const input = e.target.value;
     setUniversidad(input);
@@ -131,15 +218,15 @@ const RegisterPage = () => {
         )
         .slice(0, 6);
       setFilteredUniversities(filtered);
-      setDropdownVisible(true);
+      setUniversityDropdownVisible(true);
     } else {
-      setDropdownVisible(false);
+      setUniversityDropdownVisible(false);
     }
   };
 
   const handleSuggestionClick = (universityName: string) => {
     setUniversidad(universityName);
-    setDropdownVisible(false);
+    setUniversityDropdownVisible(false);
   };
 
   const handleRegister = async (e: React.FormEvent) => {
@@ -179,87 +266,253 @@ const RegisterPage = () => {
   };
 
   return (
-    <form onSubmit={handleRegister}>
-      <h2>Registro de Usuario</h2>
-      <input type="email" placeholder="Correo Electrónico" value={email} onChange={(e) => setEmail(e.target.value)} required />
-      <input type="password" placeholder="Contraseña" value={password} onChange={(e) => setPassword(e.target.value)} required />
-      <input type="text" placeholder="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} required />
-      <input type="text" placeholder="Apellidos" value={apellidos} onChange={(e) => setApellidos(e.target.value)} required />
-      <input type="tel" placeholder="Teléfono" value={telefono} onChange={(e) => setTelefono(e.target.value)} />
-
-      {/* Country Dropdown */}
-      <select value={selectedCountryId} onChange={handleCountryChange} required>
-        <option>Seleccione un país</option>
-        {countries.map(country => (
-          <option key={country.geonameId} value={country.geonameId}>{country.countryName}</option>
-        ))}
-      </select>
-
-      {/* Province Dropdown */}
-      <select value={selectedProvinceId} onChange={handleProvinceChange} disabled={!pais} required>
-        <option>Seleccione una provincia</option>
-        {provinces.length > 0 
-          ? provinces.map(province => (
-              <option key={province.geonameId} value={province.geonameId}>{province.name}</option>
-            ))
-          : <option>No hay provincias disponibles</option>}
-      </select>
-
-      {/* City dropdown */}
-      <select value={selectedCityId} onChange={handleCityChange} disabled={!provincia} required>
-        <option>Seleccione una ciudad</option>
-        {cities.length > 0 
-        ? cities.map(city => (
-            <option key={city.geonameId} value={city.geonameId}>{city.name}</option>
-            ))
-        : <option>No hay Ciudades disponibles</option>}
-      </select>
-
-      {/* District Dropdown */}
-      <select value={distrito} onChange={handleDistrictChange} disabled={!ciudad} required>
-        <option>Seleccione un distrito</option>
-        {districts.length > 0 
-            ? districts.map((district) => (
-                <option key={district.geonameId} value={district.name}>{district.name}</option>
-            ))
-            : <option>No hay distritos disponibles</option>}
-      </select>
-
-      {/* University List */}
-      <div style={{ position: 'relative' }}>
+    <div className="d-flex justify-content-center align-items-center vh-100" style={{ minHeight: '100vh' }}>
+      <div className="custom-container container p-4 rounded bg-secondary shadow-lg" style={{ maxWidth: '500px', marginTop: '400px'}}>
+        <form onSubmit={handleRegister}>
+          <h2 className="text-center text-light mb-4">Formulario de Registro</h2>
+  
+          {/* Email */}
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label text-light">Correo Electrónico</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Correo Electrónico"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+              className="form-control"/>
+          </div>
+  
+          {/* Password */}
+          <div className="mb-3">
+            <label htmlFor="password" className="form-label text-light">Contraseña</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Contraseña"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              className="form-control"/>
+          </div>
+  
+          {/* Nombre */}
+          <div className="mb-3">
+            <label htmlFor="nombre" className="form-label text-light">Nombre</label>
+            <input
+              id="nombre"
+              type="text"
+              placeholder="Nombre"
+              value={nombre}
+              onChange={(e) => setNombre(e.target.value)}
+              required
+              className="form-control"/>
+          </div>
+  
+          {/* Apellidos */}
+          <div className="mb-3">
+            <label htmlFor="apellidos" className="form-label text-light">Apellidos</label>
+            <input
+              id="apellidos"
+              type="text"
+              placeholder="Apellidos"
+              value={apellidos}
+              onChange={(e) => setApellidos(e.target.value)}
+              required
+              className="form-control"/>
+          </div>
+  
+          {/* Teléfono */}
+          <div className="mb-3">
+            <label htmlFor="telefono" className="form-label text-light">Teléfono</label>
+            <input
+              id="telefono"
+              type="tel"
+              placeholder="Teléfono"
+              value={telefono}
+              onChange={(e) => setTelefono(e.target.value)}
+              className="form-control"/>
+          </div>
+  
+          {/* Country Dropdown */}
+          <div className="mb-3">
+            <label htmlFor="country" className="form-label text-light">País</label>
+            <select
+              id="country"
+              value={selectedCountryId}
+              onChange={handleCountryChange}
+              required
+              className="form-select">
+              <option>Seleccione un país</option>
+              {countries.map((country) => (
+                <option key={country.geonameId} value={country.geonameId}>
+                  {country.countryName}
+                </option>
+              ))}
+            </select>
+          </div>
+  
+          {/* Province Dropdown */}
+          <div className="mb-3">
+            <label htmlFor="province" className="form-label text-light">Provincia</label>
+            <select
+              id="province"
+              value={selectedProvinceId}
+              onChange={handleProvinceChange}
+              disabled={!pais}
+              required
+              className="form-select">
+              <option>Seleccione una provincia</option>
+              {provinces.length > 0 ? (
+                provinces.map((province) => (
+                  <option key={province.geonameId} value={province.geonameId}>
+                    {province.name}
+                  </option>
+                ))) : (<option>No hay provincias disponibles</option>)}
+            </select>
+          </div>
+  
+          {/* City Dropdown */}
+          <div className="mb-3">
+            <label htmlFor="city" className="form-label text-light">Ciudad</label>
+            <select
+              id="city"
+              value={selectedCityId}
+              onChange={handleCityChange}
+              disabled={!provincia}
+              required
+              className="form-select">
+              <option>Seleccione una ciudad</option>
+              {cities.length > 0 ? (
+                cities.map((city) => (
+                  <option key={city.geonameId} value={city.geonameId}>
+                    {city.name}
+                  </option>
+                ))
+              ) : (<option>No hay ciudades disponibles</option>)}
+            </select>
+          </div>
+  
+          {/* Distrito */}
+          <div className="mb-3">
+            <label htmlFor="district" className="form-label text-light">Distrito</label>
+            <select
+              id="district"
+              value={distrito}
+              onChange={handleDistrictChange}
+              disabled={!ciudad}
+              required
+              className="form-select">
+              <option>Seleccione un distrito</option>
+              {districts.length > 0 ? (
+                districts.map((district) => (
+                  <option key={district.geonameId} value={district.name}>
+                    {district.name}
+                  </option>
+                ))
+              ) : (<option>No hay distritos disponibles</option>)}
+            </select>
+          </div>
+  
+        {/* University List */}
+        <div className="mb-3 position-relative">
+        <label htmlFor="universidad" className="form-label text-white">Universidad</label>
         <input
-          type="text"
-          placeholder="Escriba el nombre de la universidad"
-          value={universidad}
-          onChange={handleUniversityChange}
-          onFocus={() => setDropdownVisible(true)}
-          required
-        />
-        {isDropdownVisible && filteredUniversities.length > 0 && (
-          <ul style={{ border: '1px solid #ccc', maxHeight: '150px', overflowY: 'scroll', position: 'absolute', width: '100%', backgroundColor: 'white', zIndex: 1 }}>
+            id="universidad"
+            type="text"
+            placeholder="Escriba el nombre de la universidad"
+            value={universidad}
+            onChange={handleUniversityChange}
+            onFocus={() => setUniversityDropdownVisible(true)}
+            required
+            className="form-control bg-dark text-white border-secondary"/>
+        {isUniversityDropdownVisible && filteredUniversities.length > 0 && (
+            <ul className="dropdown-menu show position-absolute w-100">
             {filteredUniversities.map((uni, index) => (
-              <li key={index} onClick={() => handleSuggestionClick(uni.name)}>{uni.name}</li>
+                <li
+                key={index}
+                onClick={() => handleSuggestionClick(uni.name)}
+                className="dropdown-item"
+                >
+                {uni.name}
+                </li>
             ))}
-          </ul>
+            </ul>
         )}
-      </div>
+        </div>
 
-      <input type="text" placeholder="Nombre del Colegio" value={colegio} onChange={(e) => setColegio(e.target.value)} />
+        {/* School List */}
+        <div className="mb-3 position-relative">
+        <label htmlFor="colegio" className="form-label text-white">Colegio</label>
+        <input
+            id="colegio"
+            type="text"
+            placeholder="Escriba el nombre del colegio"
+            value={colegio}
+            onChange={handleColegioChange}
+            onFocus={() => setSchoolDropdownVisible(true)}
+            required
+            className="form-control bg-dark text-white border-secondary"/>
+        {isSchoolDropdownVisible && filteredColegios.length > 0 && (
+            <ul className="dropdown-menu show position-absolute w-100">
+            {filteredColegios.map((col, index) => (
+                <li
+                key={index}
+                onClick={() => handleColegioSuggestionClick(col.Name)}
+                className="dropdown-item"
+                >
+                {col.Name}
+                </li>
+            ))}
+            <li
+                onClick={() => setIsManualInput(true)}
+                className="dropdown-item"
+            >
+                Ingresar manualmente
+            </li>
+            </ul>
+        )}
+        </div>
 
-      <select value={role} onChange={(e) => setRole(e.target.value)} required>
-        <option value="">Seleccione un Rol</option>
-        {Array.isArray(roles) && roles.map((role) => (
-            <option key={role.id} value={role.id}>
-            {role.nombre}
-            </option>
-        ))}
-      </select>
+        {/* Rol */}
+        <div className="mb-3">
+        <label htmlFor="role" className="form-label text-light">Rol</label>
+        <select
+            id="role"
+            value={role}
+            onChange={(e) => setRole(e.target.value)}
+            required
+            className="form-select bg-light text-dark border-secondary">
+            <option value="">Seleccione un Rol</option>
+            {Array.isArray(roles) &&
+            roles.map((role) => (
+                <option key={role.id} value={role.id}>
+                {role.nombre}
+                </option>
+            ))}
+        </select>
+        </div>
+  
+        <button
+        type="submit"
+        className="btn btn-primary w-100">
+        Registrar
+        </button>
+        {message && <p className="mt-3 text-success">{message}</p>}
+        {error && <p className="mt-3 text-danger">{error}</p>}
 
-      <button type="submit">Registrar</button>
-      {message && <p style={{ color: 'green' }}>{message}</p>}
-      {error && <p style={{ color: 'red' }}>{error}</p>}
-    </form>
-  );
+        {/* Link para navegar a la vista de login */}
+        <p className="mt-3 text-center text-white">
+        ¿Ya tienes una cuenta?{" "}
+        <a href="/login" className="text-decoration-underline link-hover">
+            Inicia sesión aquí
+        </a>
+        </p>
+      </form>
+    </div>
+  </div>
+);
 };
 
 export default RegisterPage;

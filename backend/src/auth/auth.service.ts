@@ -22,8 +22,12 @@ export class AuthService {
   }
 
   async findUser(email: string): Promise<User | undefined> {
-    return this.usersRepository.findOne({ where: { email } });
-  }
+    return this.usersRepository.findOne({
+        where: { email },
+        relations: ['role'], // Cargar la relación con la entidad Role
+        select: ['id', 'email', 'password', 'nombre', 'apellidos', 'role'], // Incluir los campos que quieres cargar
+    });
+}
 
   async hashPassword(password: string): Promise<string> {
     return bcrypt.hash(password, 10);
@@ -34,7 +38,13 @@ export class AuthService {
   }
 
   async generateToken(user: User) {
-    const payload = { username: user.email, sub: user.id, role: user.role };
+    const payload = { 
+      username: user.email, 
+      nombre: user.nombre,
+      apellidos: user.apellidos,
+      sub: user.id, 
+      role: { id: user.role.id, nombre: user.role.nombre }
+    };
     return { access_token: this.jwtService.sign(payload) };
   }
 

@@ -1,0 +1,16 @@
+.container {
+    background-color: #1E293B;
+    color: #F3F4F6;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #444;
+  }
+  
+  .btn-danger {
+    background-color: #DC3545;
+  }

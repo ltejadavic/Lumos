@@ -1,0 +1,20 @@
+.custom-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #1E293B; /* Fondo oscuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 90vh; /* Ajusta la altura mínima */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+
+
+.link-hover {
+    transition: color 0.3s, transform 0.3s; /* Transición suave */
+    color: white;
+  }
+  
+.link-hover:hover {
+    color: #3B82F6; /* Cambia al color azul */
+    transform: scale(1.05); /* Se agranda ligeramente */
+  }

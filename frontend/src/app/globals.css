@@ -1,21 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #1E293B; /* Fondo oscuro */
+  color: #F3F4F6; /* Texto blanco/gris */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, select, button {
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3B82F6;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2563EB; /* Azul más oscuro */
+}
+
+html, body {
+  height: 100%; /* Asegúrate de que el contenido ocupe toda la ventana */
+  margin: 0;
+  padding: 0;
+  overflow: visible; /* Permite el desplazamiento si es necesario */
+}
+
+.form-container {
+  max-height: 90vh; /* Limita la altura máxima al 90% de la ventana */
+  overflow-y: auto; /* Habilita el desplazamiento vertical si se excede la altura */
 }

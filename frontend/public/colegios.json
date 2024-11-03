@@ -1,0 +1,1922 @@
+[
+  {
+    "Number": 1,
+    "Code": "C0000826",
+    "Name": "FE Y ALEGRIA NRO. 2 (2009)",
+    "Status": "Bueno",
+    "Kind": "FE Y ALEGRIA",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MARTIN DE PORRES"
+  },
+  {
+    "Number": 2,
+    "Code": "C0001002",
+    "Name": "FE Y ALEGRIA NRO. 24",
+    "Status": "Bueno",
+    "Kind": "FE Y ALEGRIA",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "Number": 3,
+    "Code": "C0002881",
+    "Name": "FE Y ALEGRIA NRO. 32",
+    "Status": "Bueno",
+    "Kind": "FE Y ALEGRIA",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "Number": 4,
+    "Code": "C0000942",
+    "Name": "FAP MANUEL POLO JIMENEZ",
+    "Status": "Bueno",
+    "Kind": "FUERZAS ARMADAS",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 5,
+    "Code": "C0000433",
+    "Name": "FELIX TELLO ROJAS",
+    "Status": "Bueno",
+    "Kind": "FUERZAS ARMADAS",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 6,
+    "Code": "C0001120",
+    "Name": "LICEO NAVAL ALMIRANTE GUISE",
+    "Status": "Bueno",
+    "Kind": "FUERZAS ARMADAS",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN BORJA"
+  },
+  {
+    "Number": 7,
+    "Code": "C0000218",
+    "Name": "0001 MARIA AUXILIADORA",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 8,
+    "Code": "C0004419",
+    "Name": "COLEGIO MAYOR SECUNDARIO PRESIDENTE DEL PERU",
+    "Status": "Excelente",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "CHACLACAYO"
+  },
+  {
+    "Number": 9,
+    "Code": "C0000375",
+    "Name": "JOHANNES GUTENBERG",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "EL AGUSTINO"
+  },
+  {
+    "Number": 10,
+    "Code": "C0000939",
+    "Name": "LOS PROCERES",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 11,
+    "Code": "C0001126",
+    "Name": "ROMEO LUNA VICTORIA (7089)",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN BORJA"
+  },
+  {
+    "Number": 12,
+    "Code": "C0000682",
+    "Name": "SANTISIMA TRINIDAD (3719)",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUENTE PIEDRA"
+  },
+  {
+    "Number": 13,
+    "Code": "C0000715",
+    "Name": "TENIENTE CORONEL A. BONIFAZ (2001)",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "RIMAC"
+  },
+  {
+    "Number": 14,
+    "Code": "C0000126",
+    "Name": "VIRGO POTENS",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 15,
+    "Code": "C0000644",
+    "Name": "AGUSTINIANO SAN MARTIN DE PORRES",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 16,
+    "Code": "C0001176",
+    "Name": "EL BUEN PASTOR",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 17,
+    "Code": "C0002819",
+    "Name": "HERMANO NOE ZEVALLOS ORTEGA",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 18,
+    "Code": "C0001243",
+    "Name": "MARIA AUXILIADORA",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "CALLAO",
+    "District": "CALLAO"
+  },
+  {
+    "Number": 19,
+    "Code": "C0000219",
+    "Name": "MARIA DE LA PROVIDENCIA",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 20,
+    "Code": "C0000231",
+    "Name": "SALESIANO SAN FRANCISCO DE SALES",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 21,
+    "Code": "C0000805",
+    "Name": "SANTA MATILDE",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN LUIS"
+  },
+  {
+    "Number": 22,
+    "Code": "C0000117",
+    "Name": "SANTISIMA TRINIDAD",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 23,
+    "Code": "C0000425",
+    "Name": "ABRAHAM LINCOLN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 24,
+    "Code": "C0000582",
+    "Name": "ALEXANDER VON HUMBOLDT",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 25,
+    "Code": "C0003808",
+    "Name": "ALFA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "COMAS"
+  },
+  {
+    "Number": 26,
+    "Code": "C0000904",
+    "Name": "ALPAMAYO",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "ATE"
+  },
+  {
+    "Number": 27,
+    "Code": "C0003727",
+    "Name": "ALTAIR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 28,
+    "Code": "C0000905",
+    "Name": "ANDRE MALRAUX",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 29,
+    "Code": "C0000012",
+    "Name": "ANTONIO RAIMONDI",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 30,
+    "Code": "C0000906",
+    "Name": "AUGUSTO WEBERBAUER",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 31,
+    "Code": "C0001033",
+    "Name": "BLAS PASCAL",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "Number": 32,
+    "Code": "C0000344",
+    "Name": "CAMBRIDGE COLLEGE LIMA",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "CHORRILLOS"
+  },
+  {
+    "Number": 33,
+    "Code": "C0000657",
+    "Name": "COOPERATIVO LA UNION",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 34,
+    "Code": "C0000412",
+    "Name": "COOPERATIVO SAN FELIPE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "JESUS MARIA"
+  },
+  {
+    "Number": 35,
+    "Code": "C0003039",
+    "Name": "CORAZON DE JESUS PIONERO DE LA CIENCIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 36,
+    "Code": "C0003606",
+    "Name": "CRUZ SACO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 37,
+    "Code": "C0000507",
+    "Name": "DALTON",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LINCE"
+  },
+  {
+    "Number": 38,
+    "Code": "C0000202",
+    "Name": "DIEZ DE OCTUBRE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 39,
+    "Code": "C0002845",
+    "Name": "DIEZ DE OCTUBRE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 40,
+    "Code": "C0002840",
+    "Name": "ENRIQUE NAPOLEON ESPINOSA DIOSES",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "RIMAC"
+  },
+  {
+    "Number": 41,
+    "Code": "C0000922",
+    "Name": "FRANCO PERUANO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 42,
+    "Code": "C0000434",
+    "Name": "FRANKLIN D. ROOSEVELT",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 43,
+    "Code": "C0000396",
+    "Name": "HECTOR DE CARDENAS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "JESUS MARIA"
+  },
+  {
+    "Number": 44,
+    "Code": "C0000924",
+    "Name": "HIRAM BINGHAM",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 45,
+    "Code": "C0000429",
+    "Name": "ING. CARLOS LISSON BEINGOLEA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 46,
+    "Code": "C0003282",
+    "Name": "INMACULADO HIGH SCHOOL",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BARRANCO"
+  },
+  {
+    "Number": 47,
+    "Code": "C0000435",
+    "Name": "JEAN LE BOULCH",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 48,
+    "Code": "C0003583",
+    "Name": "JESUS SALVADOR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 49,
+    "Code": "C0003877",
+    "Name": "JOHN NASH HIGH SCHOOL",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "COMAS"
+  },
+  {
+    "Number": 50,
+    "Code": "C0000655",
+    "Name": "JORGE POLAR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 51,
+    "Code": "C0000048",
+    "Name": "JOSE ANTONIO ENCINAS",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MAGDALENA DEL MAR"
+  },
+  {
+    "Number": 52,
+    "Code": "C0002784",
+    "Name": "JUAN ENRIQUE NEWMAN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 53,
+    "Code": "C0003375",
+    "Name": "KAROL WOJTYLA COLLEGE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 54,
+    "Code": "C0001183",
+    "Name": "KURT LEWIN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 55,
+    "Code": "C0000354",
+    "Name": "LA CASA DE CARTON",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "CHORRILLOS"
+  },
+  {
+    "Number": 56,
+    "Code": "C0003135",
+    "Name": "LOS ALAMOS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "JESUS MARIA"
+  },
+  {
+    "Number": 57,
+    "Code": "C0003594",
+    "Name": "LUMBRERAS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUENTE PIEDRA"
+  },
+  {
+    "Number": 58,
+    "Code": "C0000941",
+    "Name": "MAGISTER",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 59,
+    "Code": "C0000067",
+    "Name": "MARIA ALVARADO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 60,
+    "Code": "C0003614",
+    "Name": "MARIA DE LOS ANGELES",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 61,
+    "Code": "C0003248",
+    "Name": "MARIA Y JOSE DE LOS OLIVOS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 62,
+    "Code": "C0000613",
+    "Name": "MARKHAM COLLEGE",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 63,
+    "Code": "C0001188",
+    "Name": "MARTIN ADAN",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 64,
+    "Code": "C0003882",
+    "Name": "MASTERCIENCIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUENTE PIEDRA"
+  },
+  {
+    "Number": 65,
+    "Code": "C0000885",
+    "Name": "MATER ADMIRABILIS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 66,
+    "Code": "C0000615",
+    "Name": "MEDALLA DE MARIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 67,
+    "Code": "C0000449",
+    "Name": "NEWTON COLLEGE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 68,
+    "Code": "C0003464",
+    "Name": "NTRA. SRA. DE LA ASUNCION",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 69,
+    "Code": "C0004646",
+    "Name": "PAMER",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "JESUS MARIA"
+  },
+  {
+    "Number": 70,
+    "Code": "C0003625",
+    "Name": "PASCUAL SACO OLIVEROS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BARRANCO"
+  },
+  {
+    "Number": 71,
+    "Code": "C0003052",
+    "Name": "PERUANO AMERICANO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LURIGANCHO"
+  },
+  {
+    "Number": 72,
+    "Code": "C0000950",
+    "Name": "PERUANO BRITANICO",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 73,
+    "Code": "C0000473",
+    "Name": "PERUANO JAPONES LA VICTORIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LINCE"
+  },
+  {
+    "Number": 74,
+    "Code": "C0000619",
+    "Name": "PESTALOZZI",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 75,
+    "Code": "C0003557",
+    "Name": "PITAGORAS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "Number": 76,
+    "Code": "C0003262",
+    "Name": "PROLOG",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "Number": 77,
+    "Code": "C0003155",
+    "Name": "RAYMOND CLARK",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 78,
+    "Code": "C0002815",
+    "Name": "SACO OLIVEROS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 79,
+    "Code": "C0002908",
+    "Name": "SACO OLIVEROS DE JESUS MARIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "JESUS MARIA"
+  },
+  {
+    "Number": 80,
+    "Code": "C0002988",
+    "Name": "SAGRADO CORAZON DE LA MOLINA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 81,
+    "Code": "C0000735",
+    "Name": "SALCANTAY",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 82,
+    "Code": "C0000857",
+    "Name": "SAN ANTONIO DE PADUA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MARTIN DE PORRES"
+  },
+  {
+    "Number": 83,
+    "Code": "C0002865",
+    "Name": "SAN FRANCISCO DE ASIS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 84,
+    "Code": "C0001130",
+    "Name": "SAN IGNACIO DE RECALDE",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN BORJA"
+  },
+  {
+    "Number": 85,
+    "Code": "C0004195",
+    "Name": "SAN IGNACIO DEL RETABLO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "COMAS"
+  },
+  {
+    "Number": 86,
+    "Code": "C0000960",
+    "Name": "SAN JOSE DE MONTERRICO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 87,
+    "Code": "C0000163",
+    "Name": "SAN LORENZO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "ATE"
+  },
+  {
+    "Number": 88,
+    "Code": "C0002872",
+    "Name": "SAN MIGUEL ARCANGEL",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUENTE PIEDRA"
+  },
+  {
+    "Number": 89,
+    "Code": "C0000666",
+    "Name": "SAN PABLO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 90,
+    "Code": "C0000634",
+    "Name": "SAN SILVESTRE SCHOOL",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 91,
+    "Code": "C0000966",
+    "Name": "SANTA MARGARITA",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 92,
+    "Code": "C0003130",
+    "Name": "SANTA MARIA DE LA PROVIDENCIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LOS OLIVOS"
+  },
+  {
+    "Number": 93,
+    "Code": "C0000969",
+    "Name": "SANTA TERESITA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 94,
+    "Code": "C0003451",
+    "Name": "TRENER",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 95,
+    "Code": "C0003689",
+    "Name": "TRILCE CHORRILLOS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "CHORRILLOS"
+  },
+  {
+    "Number": 96,
+    "Code": "C0002847",
+    "Name": "TRILCE DE LA MOLINA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 97,
+    "Code": "C0000639",
+    "Name": "TRILCE MIRAFLORES",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 98,
+    "Code": "C0003125",
+    "Name": "TRILCE ROMA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 99,
+    "Code": "C0003719",
+    "Name": "VIRGEN DE VIRGENES",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUENTE PIEDRA"
+  },
+  {
+    "Number": 100,
+    "Code": "C0000612",
+    "Name": "CHAMPAGNAT",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 101,
+    "Code": "C0000874",
+    "Name": "CLARETIANO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 102,
+    "Code": "C0000647",
+    "Name": "CRISTO REY",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 103,
+    "Code": "C0000914",
+    "Name": "CRISTO SALVADOR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 104,
+    "Code": "C0000648",
+    "Name": "DE JESUS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 105,
+    "Code": "C0000646",
+    "Name": "DE LA CRUZ",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 106,
+    "Code": "C0000933",
+    "Name": "DE LA INMACULADA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 107,
+    "Code": "C0000650",
+    "Name": "EL CARMELO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "PUEBLO LIBRE"
+  },
+  {
+    "Number": 108,
+    "Code": "C0000597",
+    "Name": "HOSANNA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 109,
+    "Code": "C0000727",
+    "Name": "ISABEL FLORES DE OLIVA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 110,
+    "Code": "C0002736",
+    "Name": "JESUS MAESTRO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "CALLAO",
+    "District": "BELLAVISTA"
+  },
+  {
+    "Number": 111,
+    "Code": "C0000883",
+    "Name": "JUAN XXIII",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 112,
+    "Code": "C0000291",
+    "Name": "LA FE DE MARIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "COMAS"
+  },
+  {
+    "Number": 113,
+    "Code": "C0000214",
+    "Name": "LA SALLE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 114,
+    "Code": "C0000729",
+    "Name": "LEON PINELO",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 115,
+    "Code": "C0000786",
+    "Name": "MANUEL A. RAMIREZ BARINAGA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "Number": 116,
+    "Code": "C0000217",
+    "Name": "MARIA AUXILIADORA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 117,
+    "Code": "C0000610",
+    "Name": "MARIA DE LAS MERCEDES",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 118,
+    "Code": "C0000731",
+    "Name": "MARIA REINA MARIANISTAS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 119,
+    "Code": "C0000702",
+    "Name": "NUESTRA SE�ORA DE COPACABANA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "RIMAC"
+  },
+  {
+    "Number": 120,
+    "Code": "C0000155",
+    "Name": "NUESTRA SE�ORA DE LA MERCED",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "ATE"
+  },
+  {
+    "Number": 121,
+    "Code": "C0000616",
+    "Name": "NUESTRA SE�ORA DEL CARMEN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 122,
+    "Code": "C0000224",
+    "Name": "PATROCINIO DE SAN JOSE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 123,
+    "Code": "C0000953",
+    "Name": "PIO XII",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 124,
+    "Code": "C0000954",
+    "Name": "REGINA PACIS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 125,
+    "Code": "C0000445",
+    "Name": "REINA DE LOS ANGELES",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 126,
+    "Code": "C0000446",
+    "Name": "REINA DEL MUNDO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 127,
+    "Code": "C0000745",
+    "Name": "S. C. SOPHIANUM",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 128,
+    "Code": "C0000736",
+    "Name": "SAN AGUSTIN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 129,
+    "Code": "C0000101",
+    "Name": "SAN ANDRES",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 130,
+    "Code": "C0000411",
+    "Name": "SAN ANTONIO DE PADUA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "JESUS MARIA"
+  },
+  {
+    "Number": 131,
+    "Code": "C0001128",
+    "Name": "SAN FRANCISCO DE BORJA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN BORJA"
+  },
+  {
+    "Number": 132,
+    "Code": "C0000232",
+    "Name": "SAN FRANCISCO JAVIER",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "BRE�A"
+  },
+  {
+    "Number": 133,
+    "Code": "C0000985",
+    "Name": "SAN JOSE DE CLUNY",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SURQUILLO"
+  },
+  {
+    "Number": 134,
+    "Code": "C0000570",
+    "Name": "SAN JUAN MARIA VIANNEY",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MAGDALENA DEL MAR"
+  },
+  {
+    "Number": 135,
+    "Code": "C0000894",
+    "Name": "SAN JUDAS TADEO CORAZONISTAS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 136,
+    "Code": "C0000896",
+    "Name": "SANTA ANA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN MIGUEL"
+  },
+  {
+    "Number": 137,
+    "Code": "C0000112",
+    "Name": "SANTA ISABEL DE HUNGRIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LIMA"
+  },
+  {
+    "Number": 138,
+    "Code": "C0000967",
+    "Name": "SANTA MARIA MARIANISTAS",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 139,
+    "Code": "C0000635",
+    "Name": "SANTA RITA DE CASIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MIRAFLORES"
+  },
+  {
+    "Number": 140,
+    "Code": "C0000742",
+    "Name": "SANTA URSULA",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 141,
+    "Code": "C0000970",
+    "Name": "SANTIAGO APOSTOL",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SANTIAGO DE SURCO"
+  },
+  {
+    "Number": 142,
+    "Code": "C0001133",
+    "Name": "SANTISIMO NOMBRE DE JESUS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN BORJA"
+  },
+  {
+    "Number": 143,
+    "Code": "C0000991",
+    "Name": "SOR QUERUBINA DE SAN PEDRO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SURQUILLO"
+  },
+  {
+    "Number": 144,
+    "Code": "C0000576",
+    "Name": "SOR ROSA LARRABURE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "MAGDALENA DEL MAR"
+  },
+  {
+    "Number": 145,
+    "Code": "C0000744",
+    "Name": "SS. CC. BELEN",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "SAN ISIDRO"
+  },
+  {
+    "Number": 146,
+    "Code": "C0000450",
+    "Name": "SS. CC. RECOLETA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 147,
+    "Code": "C0000453",
+    "Name": "VILLA MARIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Lima",
+    "City": "LIMA",
+    "District": "LA MOLINA"
+  },
+  {
+    "Number": 148,
+    "Code": "C0002255",
+    "Name": "C. E. 20874",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Provincia",
+    "City": "CAÑETE",
+    "District": "SAN VICENTE CANETE"
+  },
+  {
+    "Number": 149,
+    "Code": "C0001968",
+    "Name": "JOSE CARLOS MARIATEGUI 31747",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Provincia",
+    "City": "YAULI",
+    "District": "LA OROYA"
+  },
+  {
+    "Number": 150,
+    "Code": "C0001980",
+    "Name": "LA ASUNCION",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "HUANCAYO"
+  },
+  {
+    "Number": 151,
+    "Code": "C0001779",
+    "Name": "SANTA ROSA",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Provincia",
+    "City": "CUSCO",
+    "District": "CUSCO"
+  },
+  {
+    "Number": 152,
+    "Code": "C0002037",
+    "Name": "SEBASTIAN LORENTE",
+    "Status": "Bueno",
+    "Kind": "NACIONAL",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "HUANCAYO"
+  },
+  {
+    "Number": 153,
+    "Code": "C0001761",
+    "Name": "MARIA AUXILIADORA",
+    "Status": "Bueno",
+    "Kind": "PARROQUIAL",
+    "Province": "Provincia",
+    "City": "CUSCO",
+    "District": "CUSCO"
+  },
+  {
+    "Number": 154,
+    "Code": "C0001347",
+    "Name": "ALBERT EINSTEIN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "HUARAZ",
+    "District": "INDEPENDENCIA"
+  },
+  {
+    "Number": 155,
+    "Code": "C0003561",
+    "Name": "ALEXANDER GRAHAM BELL",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "TRUJILLO",
+    "District": "TRUJILLO"
+  },
+  {
+    "Number": 156,
+    "Code": "C0001931",
+    "Name": "ANDINO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "HUANCAYO"
+  },
+  {
+    "Number": 157,
+    "Code": "C0001505",
+    "Name": "ANGLO AMERICANO PRESCOTT",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "AREQUIPA",
+    "District": "AREQUIPA"
+  },
+  {
+    "Number": 158,
+    "Code": "C0004403",
+    "Name": "CRAMER",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "PUNO",
+    "District": "PUNO"
+  },
+  {
+    "Number": 159,
+    "Code": "C0003114",
+    "Name": "DAVY COLLEGE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "CAJAMARCA",
+    "District": "CAJAMARCA"
+  },
+  {
+    "Number": 160,
+    "Code": "C0002406",
+    "Name": "ENRIQUE MEIGGS",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "ILO",
+    "District": "PACOCHA"
+  },
+  {
+    "Number": 161,
+    "Code": "C0001546",
+    "Name": "LA SALLE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "AREQUIPA",
+    "District": "AREQUIPA"
+  },
+  {
+    "Number": 162,
+    "Code": "C0001548",
+    "Name": "LORD BYRON",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "AREQUIPA",
+    "District": "CAYMA"
+  },
+  {
+    "Number": 163,
+    "Code": "C0002998",
+    "Name": "LORD KELVIN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "TRUJILLO",
+    "District": "TRUJILLO"
+  },
+  {
+    "Number": 164,
+    "Code": "C0003638",
+    "Name": "MAX PLANCK",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "HUANCAYO"
+  },
+  {
+    "Number": 165,
+    "Code": "C0002123",
+    "Name": "NUESTRA SE�ORA DEL PERPETUO SOCORRO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "TRUJILLO",
+    "District": "TRUJILLO"
+  },
+  {
+    "Number": 166,
+    "Code": "C0001899",
+    "Name": "PERUANO CANADIENSE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "ICA",
+    "District": "ICA"
+  },
+  {
+    "Number": 167,
+    "Code": "C0003128",
+    "Name": "PROYECTO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "PIURA",
+    "District": "PIURA"
+  },
+  {
+    "Number": 168,
+    "Code": "C0002528",
+    "Name": "PUNTA ARENAS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "TALARA",
+    "District": "PARIÑAS"
+  },
+  {
+    "Number": 169,
+    "Code": "C0003595",
+    "Name": "SAN ANTONIO DE PADUA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "SAN MARTIN",
+    "District": "TARAPOTO"
+  },
+  {
+    "Number": 170,
+    "Code": "C0003738",
+    "Name": "SAN GASPAR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "YAULI",
+    "District": "SANTA ROSA DE SACCO"
+  },
+  {
+    "Number": 171,
+    "Code": "C0002028",
+    "Name": "SAN JUAN BOSCO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "HUANCAYO"
+  },
+  {
+    "Number": 172,
+    "Code": "C0002155",
+    "Name": "SIR ALEXANDER FLEMING",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "TRUJILLO",
+    "District": "TRUJILLO"
+  },
+  {
+    "Number": 173,
+    "Code": "C0002834",
+    "Name": "UNION",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR LAICO",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "EL TAMBO"
+  },
+  {
+    "Number": 174,
+    "Code": "C0001941",
+    "Name": "CLARETIANO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "HUANCAYO",
+    "District": "HUANCAYO"
+  },
+  {
+    "Number": 175,
+    "Code": "C0002650",
+    "Name": "CORAZON DE MARIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "TACNA",
+    "District": "TACNA"
+  },
+  {
+    "Number": 176,
+    "Code": "C0002651",
+    "Name": "CRISTO REY",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "TACNA",
+    "District": "TACNA"
+  },
+  {
+    "Number": 177,
+    "Code": "C0001756",
+    "Name": "LA MERCED",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "CUSCO",
+    "District": "CUSCO"
+  },
+  {
+    "Number": 178,
+    "Code": "C0002196",
+    "Name": "MANUEL PARDO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "CHICLAYO",
+    "District": "CHICLAYO"
+  },
+  {
+    "Number": 179,
+    "Code": "C0001419",
+    "Name": "MUNDO MEJOR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "SANTA",
+    "District": "CHIMBOTE"
+  },
+  {
+    "Number": 180,
+    "Code": "C0001575",
+    "Name": "NUESTRA SE�ORA DEL PILAR",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "AREQUIPA",
+    "District": "AREQUIPA"
+  },
+  {
+    "Number": 181,
+    "Code": "C0001423",
+    "Name": "NUESTRA SE�ORA DEL SAGRADO CORAZON DE JESUS",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "HUARAZ",
+    "District": "INDEPENDENCIA"
+  },
+  {
+    "Number": 182,
+    "Code": "C0001582",
+    "Name": "SAGRADOS CORAZONES (BELEN)",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "AREQUIPA",
+    "District": "AREQUIPA"
+  },
+  {
+    "Number": 183,
+    "Code": "C0001774",
+    "Name": "SALESIANO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "CUSCO",
+    "District": "CUSCO"
+  },
+  {
+    "Number": 184,
+    "Code": "C0002468",
+    "Name": "SALESIANO DON BOSCO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "PIURA",
+    "District": "CASTILLA"
+  },
+  {
+    "Number": 185,
+    "Code": "C0002216",
+    "Name": "SAN AGUSTIN",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "CHICLAYO",
+    "District": "PIMENTEL"
+  },
+  {
+    "Number": 186,
+    "Code": "C0002340",
+    "Name": "SAN JOSE",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "HUAURA",
+    "District": "HUACHO"
+  },
+  {
+    "Number": 187,
+    "Code": "C0001589",
+    "Name": "SAN JOSE",
+    "Status": "Excelente",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "AREQUIPA",
+    "District": "AREQUIPA"
+  },
+  {
+    "Number": 188,
+    "Code": "C0002135",
+    "Name": "SAN JOSE OBRERO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "TRUJILLO",
+    "District": "TRUJILLO"
+  },
+  {
+    "Number": 189,
+    "Code": "C0001645",
+    "Name": "SAN JUAN BOSCO",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "HUAMANGA",
+    "District": "AYACUCHO"
+  },
+  {
+    "Number": 190,
+    "Code": "C0001777",
+    "Name": "SANTA ANA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "CUSCO",
+    "District": "CUSCO"
+  },
+  {
+    "Number": 191,
+    "Code": "C0001915",
+    "Name": "SANTA MARIA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "CHINCHA",
+    "District": "CHINCHA ALTA"
+  },
+  {
+    "Number": 192,
+    "Code": "C0002351",
+    "Name": "SANTA ROSA",
+    "Status": "Bueno",
+    "Kind": "PARTICULAR RELIGIOSO",
+    "Province": "Provincia",
+    "City": "HUAURA",
+    "District": "HUACHO"
+  }
+]

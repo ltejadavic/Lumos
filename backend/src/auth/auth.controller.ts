@@ -20,7 +20,7 @@ export class AuthController {
 
   @Post('login')
   async login(@Body() body) {
-    const user = await this.authService.findUser(body.username);
+    const user = await this.authService.findUser(body.email);
     if (!user) {
         throw new HttpException('Invalid credentials', HttpStatus.UNAUTHORIZED);
     }
